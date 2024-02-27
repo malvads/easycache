@@ -1,7 +1,7 @@
 # EasyCache
 <p align="center">
 
-[![Gem Version](https://badge.fury.io/rb/easy-cache.svg)](https://badge.fury.io/rb/easy-cache)
+[![Gem Version](https://badge.fury.io/rb/easycache.svg)](https://badge.fury.io/rb/easycache)
 ![License](https://img.shields.io/badge/license-AGPL%203.0-blue.svg)
 [![Lint](https://github.com/malvads/easy-cache/actions/workflows/lint.yml/badge.svg)](https://github.com/malvads/easy-cache/actions/workflows/lint.yml)
 [![Tests](https://github.com/malvads/easy-cache/actions/workflows/tests.yml/badge.svg)](https://github.com/malvads/easy-cache/actions/workflows/tests.yml)
