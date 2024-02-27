@@ -4,8 +4,8 @@
 [![Gem Version](https://badge.fury.io/rb/easycache.svg)](https://badge.fury.io/rb/easycache)
 ![License](https://img.shields.io/badge/license-AGPL%203.0-blue.svg)
 [![Lint](https://github.com/malvads/easy-cache/actions/workflows/lint.yml/badge.svg)](https://github.com/malvads/easy-cache/actions/workflows/lint.yml)
-[![Tests](https://github.com/malvads/easy-cache/actions/workflows/tests.yml/badge.svg)](https://github.com/malvads/easy-cache/actions/workflows/tests.yml)
-[![Build](https://github.com/malvads/easy-cache/actions/workflows/build.yml/badge.svg)](https://github.com/malvads/easy-cache/actions/workflows/build.yml)
+[![Tests](https://github.com/malvads/easycache/actions/workflows/tests.yml/badge.svg)](https://github.com/malvads/easycache/actions/workflows/tests.yml)
+[![Build](https://github.com/malvads/easycache/actions/workflows/build.yml/badge.svg)](https://github.com/malvads/easycache/actions/workflows/build.yml)
 </p>
 EasyCache is an in-memory cache system for Ruby designed for situations where you don't want to set up Redis or Memcached but still need a simple solution for caching key-value data.
 
