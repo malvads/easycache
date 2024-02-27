@@ -1,0 +1,23 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.pull_request.user.login == 'dependabot[bot]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Ruby 2.1.9
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '2.1.9'
+      - name: Bundle Install
+        run: bundle install
+
+      - name: Run tests
+        run: rake test
