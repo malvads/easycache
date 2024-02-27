@@ -60,3 +60,11 @@ end
 because the data is already cached, so it will not call the block, it will return the cached data instead.
 
 This will output the cached data, remember that cached data is stored in mem for only 3600 seconds
+
+## Examples
+
+You can search for examples in `examples` folder for caching http requests and responses using EasyCache
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/malvads/easycache .
