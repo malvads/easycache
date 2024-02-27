@@ -10,7 +10,7 @@
 
 Maybe not the best caching system, but its a caching system :)
 
-EasyCache is an in-memory cache system for Ruby designed for situations where you don't want to set up Redis or Memcached but still need a simple solution for caching key-value data.
+EasyCache is an in-memory cache system for Ruby designed for situations where you don't want to set up Redis or Memcached but still need a simple solution for caching key-value data in the `process` memory.
 
 ## Install
 
