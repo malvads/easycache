@@ -12,7 +12,7 @@ EasyCache is an in-memory cache system for Ruby designed for situations where yo
 ## Install
 
 ```
-gem install easy-cache
+gem install easycache
 ```
 
 ## Usage
