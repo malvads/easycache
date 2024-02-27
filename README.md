@@ -9,6 +9,12 @@
 </p>
 EasyCache is an in-memory cache system for Ruby designed for situations where you don't want to set up Redis or Memcached but still need a simple solution for caching key-value data.
 
+## Install
+
+```
+gem install easy-cache
+```
+
 ## Usage
 
 To use EasyCache in your Ruby project, require the library and include it in your code:
