@@ -23,7 +23,11 @@ data = cache.fetch(cache_key, cache_ttl, store_in_mem) do
 end
 ```
 
-Now data is in-mem for the next 3600 second (store_in_mem variable is important for storing data first time), if i want to get the data stored in mem i do
+Now data is in-mem for the next 3600 second (store_in_mem variable is important for storing data first time).
+
+## Getting data
+
+If i want to get the data stored in mem i do
 
 ```ruby
 data = cache.fetch("my_key")
@@ -39,4 +43,4 @@ end
 
 because the data is already cached, so it will not call the block, it will return the cached data instead.
 
-This will output the cached data, remember that cached data is stored here for only 3600 seconds
+This will output the cached data, remember that cached data is stored in mem for only 3600 seconds
