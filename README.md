@@ -10,7 +10,7 @@
 
 Maybe not the best caching system, but its a caching system :)
 
-EasyCache is an in-memory cache system for Ruby designed for situations where you don't want to set up Redis or Memcached but still need a simple solution for caching key-value data.
+EasyCache is an in-memory cache system for Ruby designed for situations where you don't want to set up Redis or Memcached but still need a simple solution for caching key-value data in the `process` memory.
 
 ## Install
 
@@ -60,3 +60,11 @@ end
 because the data is already cached, so it will not call the block, it will return the cached data instead.
 
 This will output the cached data, remember that cached data is stored in mem for only 3600 seconds
+
+## Examples
+
+You can search for examples in `examples` folder for caching http requests and responses using EasyCache
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/malvads/easycache .
